@@ -25,7 +25,7 @@ Nemusíte dodržet přesné pořadí kroků uvedených níže – např. se mů�
    Vrácený seznam může být prázdný.
 1. Ve třídě `KnihaSluzba` vytvořte vhodně pojmenovanou metodu, která vrátí seznam (`List`) všech knih vydaných v zadaném roce (rok bude parametr metody).
    Vrácený seznam může být prázdný.
-1. Napište testy pro metody ve třídě `KnihaSluzba`. Nezapomeňte otestovat i okrajové případy – metoda pro výběr knih dle autora nebo orku nevrátí žádnou knížku
+1. Napište testy pro metody ve třídě `KnihaSluzba`. Nezapomeňte otestovat i okrajové případy – metoda pro výběr knih dle autora nebo roku nevrátí žádnou knížku
    nebo vrátí více knih.
 1. Ve třídě Aplikace vytvořte spouštěcí metodu `main`. V této metodě vytvořte instanci třídy `KnihaSluzba`.
 1. Vypište do konzole (pomocí `System.out`) celkový počet knížek v naší malé databázi.
