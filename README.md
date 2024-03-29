@@ -1,6 +1,6 @@
 # Úkol 7 – Knihovna
 
-Implementujte jednoduchou aplikaci pro evidenci knížek. Aplikace nače seznam knížek z JSON souboru a bude umět vypsat všechny knížky od zvoleného autora a také
+Implementujte jednoduchou aplikaci pro evidenci knížek. Aplikace načte seznam knížek z JSON souboru a bude umět vypsat všechny knížky od zvoleného autora a také
 všechny knížky vydané v zadaném roce.
 
 Nemusíte dodržet přesné pořadí kroků uvedených níže – např. se může hodit napsat si test před implementací nkódu, který bude testovat, nebo souběžně s ním.
