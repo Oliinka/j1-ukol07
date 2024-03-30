@@ -10,7 +10,7 @@ import java.util.List;
 
 public class BookService {
 
-    private List<Book> books;
+    public List<Book> books;
 
     public BookService() {
         try (InputStream inputStream = BookService.class.getResourceAsStream("books.json")) {
