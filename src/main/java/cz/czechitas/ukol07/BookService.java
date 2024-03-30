@@ -42,10 +42,19 @@ public class BookService {
     public List<Book> getBooksByYear(int year) {
         List<Book> booksByYear = new ArrayList<>();
         for (Book book : books) {
-            if (book.getPublicationYear() == year) {
+            if (book.getPublicationYear() == year)                                                                                                                                          {
                 booksByYear.add(book);
             }
         }
         return booksByYear;
+    }
+
+    public void listAllBooks() {
+        for (Book book: books) {
+            System.out.println("Title: "+ book.getName());
+            System.out.println("Author: "+ book.getAuthor());
+            System.out.println("Year of publication: " + book.getPublicationYear());
+            System.out.println("------------------------------------------------");
+        }
     }
 }

@@ -9,8 +9,13 @@ public class Aplication {
     public static void main (String[] args) {
         BookService bookService = new BookService();
 
+        //Print all books from the list
+        bookService.listAllBooks();
+
         // Print total number of books
         System.out.println("Total number of books: " + bookService.getAllBooks().size());
+        System.out.println();
+
 
         // Print names of all books by Karel Čapek
       List<Book> booksByKarelCapek = bookService.getBooksByAuthor("Karel Čapek");
@@ -18,6 +23,8 @@ public class Aplication {
         for (Book book : booksByKarelCapek) {
             System.out.println(book.getName());
         }
+
+        System.out.println();
 
         // Print all books first published in 1845
         List<Book> booksPublishedIn1845 = bookService.getBooksByYear(1845);
